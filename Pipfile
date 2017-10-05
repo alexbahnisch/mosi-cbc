@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"84a59fe" = {path = "../mosi", editable = true}
+"e1839a8" = {path = ".", editable = true}
+
+[dev-packages]
+coverage = "*"
+pypandoc = "*"
+pytest = "*"
+pytest-runner = "*"
+tox = "*"

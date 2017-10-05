@@ -1,0 +1,14 @@
+# root:
+.cache
+.coverage
+.eggs
+.idea
+.tox
+build
+dist
+pandoc-*.msi
+
+# wildcards:
+!**.gitkeep
+**.egg-info
+**cbc.exe
